@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="#" class="nav__a">Works</a></li>
+                <li class="nav__li"><a href="#" class="nav__a">Blog</a></li>
+                <li class="nav__li"><a href="#" class="nav__a">Contact</a></li>
+            </ul>
+            <img src="./img/Mobile-Header.png" alt="" id="main__img">
+        </div>
+    </nav>
+    <div class="container__img">
+        <div class="container__img top">
+            <div class="container__img left">
+                <h1>Hi, I am John,<br>
+                    Creative Technologist</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam<br> consequat sunt nostrud amet.</p>
+                <button class="conbot__btn">Download Resume</button>
+            </div>
+            <div class="container__img right">
+                <img src="./img/Ellipse 1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- this is main con blyat!!! -->
+    <div class="main__container">
+        <div class="main__left">
+            <h1 class="main__h1">Recent posts</h1>
+            <div class="main__main">
+                <h1>Making a design system from<br> scratch</h1>
+                <div class="main__flex">
+                    <p>12 Feb 2020</p>
+                    <p id="main_p"></p>
+                    <p>Design, Pattern</p>
+                </div>
+                <p>Amet minim mollit non deserunt ullamco est sit<br> aliqua dolor do amet sint. Velit officia consequat<br> duis enim velit mollit. Exercitation veniam<br> consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+        <div class="main__right">
+            <p class="main__p">View all</p>
+            <div class="main__main2">
+                <h1>Making a design system from<br> scratch</h1>
+                <div class="main__flex2">
+                    <p>12 Feb 2020</p>
+                    <p id="main_p"></p>
+                    <p>Design, Pattern</p>
+                </div>
+                <p>Amet minim mollit non deserunt ullamco est sit<br> aliqua dolor do amet sint. Velit officia consequat<br> duis enim velit mollit. Exercitation veniam<br> consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- img content  -->
+    <div class="img__con">
+        <h1>Featured works</h1>
+        <div class="img__flex">
+            <div class="img__left">
+                <img src="./img/Rectangle 30.png" alt="">
+            </div>
+            <div class="img__right">
+                <h1>Designing Dashboards</h1>
+                <div class="flex__img">
+                    <span>2023</span>
+                    <p>Dashboard</p>
+                </div>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br>
+                     officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br> nostrud amet.
+                </p>
+            </div>
+        </div>
+        <div class="img__flex">
+            <div class="img__left">
+                <img src="./img/Rectangle 32.png" alt="">
+            </div>
+            <div class="img__right">
+                <h1>Designing Dashboards</h1>
+                <div class="flex__img">
+                    <span>2023</span>
+                    <p>Dashboard</p>
+                </div>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br>
+                     officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br> nostrud amet.
+                </p>
+            </div>
+        </div>
+        <div class="img__flex">
+            <div class="img__left">
+                <img src="./img/Rectangle 34.png" alt="">
+            </div>
+            <div class="img__right">
+                <h1>Designing Dashboards</h1>
+                <div class="flex__img">
+                    <span>2023</span>
+                    <p>Dashboard</p>
+                </div>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br>
+                     officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br> nostrud amet.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="foot_flex">
+            <img src="./img/fb.png" alt="">
+            <img src="./img/insta.png" alt="">
+            <img src="img/Group.png" alt="">
+            <img src="./img/Linkedin.png" alt="">
+        </div>
+        <p>Copyright ©2020 All rights reserved </p>
+    </footer>
+    <script>
+        const nav__li = document.querySelector(".nav__ul")
+        const main__img = document.querySelector("#main__img")
+        const imgCOn = document.querySelector(".container__img .top .right")
+        main__img.onclick = function () {
+            imgCOn.classList.toggle("right__right")
+            nav__li.classList.toggle("main__ul")
+        }
+    </script>
+</body>
+</html>
